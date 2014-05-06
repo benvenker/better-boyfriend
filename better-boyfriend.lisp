@@ -150,7 +150,7 @@
 (rnd-select niceties 1)
 ; test 2 expect ('DINNER OUT')
 (rnd-select niceties 1)
-; test 3 ('BACK MASSAGE')
+; test 3 expect ('BACK MASSAGE')
 (rnd-select niceties 1)
 
 
