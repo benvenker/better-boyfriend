@@ -146,11 +146,11 @@
          :finally (return result)))
      (t (error "Invalid count, must be betwen 0 and ~A" len)))))
 
-; test 1
+; test 1 expect ('FLOWERS')
 (rnd-select niceties 1)
-; test 2
+; test 2 expect ('DINNER OUT')
 (rnd-select niceties 1)
-; test 3
+; test 3 ('BACK MASSAGE')
 (rnd-select niceties 1)
 
 
